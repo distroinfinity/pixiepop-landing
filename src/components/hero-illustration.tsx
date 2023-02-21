@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal'
 import imgLogo from './../assets/test.png'
+// import video from './../assets/test.mp4'
 import { BackgroundGradient } from './background-gradient'
 
 export function HeroIllustration() {
@@ -17,10 +18,14 @@ export function HeroIllustration() {
           display: 'flex',
           marginBottom: '20px',
           justifyContent: 'flexStart',
-          width:"1200px"
+          width: '1200px',
         }}
       >
         <img src={imgLogo}></img>
+        {/* <video controls>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> */}
       </div>
     )
   }

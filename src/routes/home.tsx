@@ -6,8 +6,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Hero
-        title="PixiePop - Turn your thoughts into NFTs"
-        content="PixiePop uses the stable diffusion model to turn your written ideas into beautiful and unique digital art pieces, which you can easily mint as NFTs on the Mantle chain. Create your personalized NFTs and unleash your creativity with PixiePop."
+        title="PixiePop - Unlock the potential of AI-generated NFTs."
+        content="PixiePop lets you generate unique, AI-generated images from your thoughts and mint them as NFTs on the Mantle Chain. Buy, sell, and resell your NFTs on our marketplace and earn royalties."
         illustration={<HeroIllustration />}
       />
     </Layout>
