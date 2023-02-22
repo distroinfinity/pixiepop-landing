@@ -45,7 +45,10 @@ export function Hero({
   }
   function redirect() {
     console.log('here reached')
-    window.open('http://localhost:3000/', '_blank')
+    window.open(
+      'https://pixiepop-git-main-distroinfinity.vercel.app/',
+      '_blank'
+    )
   }
 
   return (
